@@ -39,7 +39,7 @@ set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
 set_property STEPS.OPT_DESIGN.IS_ENABLED false [get_runs impl_1]
 
 # setup repositories
-set_property ip_repo_paths ../../src [current_project]
+set_property ip_repo_paths ../../ [current_project]
 update_ip_catalog
 
 # add files to project
