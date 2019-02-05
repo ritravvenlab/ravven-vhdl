@@ -16,7 +16,7 @@ set_global_assignment -name TOP_LEVEL_ENTITY top
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY ../output_files
 
 # 2] include your relative path files here
-set_global_assignment -name VHDL_FILE ../../src/top.vhd
+set_global_assignment -name VHDL_FILE top.vhd
 set_global_assignment -name VHDL_FILE ../../src/blink.vhd
 
 # 3] set your pin constraints here
