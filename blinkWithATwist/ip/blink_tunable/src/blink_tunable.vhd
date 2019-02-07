@@ -1,6 +1,6 @@
 -------------------------------------------------------------------------------
 -- Dr. Kaputa
--- tunable blink_tunable led demo
+-- tunable blink led demo
 -------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;  
